@@ -35,14 +35,14 @@ Default: `{name}_Rev{revletter}_{date}.{ext}`
 
 Available fields:
 
-| Field         | Example      |
-|---------------|--------------|
-| `{name}`      | `bracket`    |
-| `{version}`   | `7`          |
-| `{revletter}` | `G`          |
-| `{rev}`       | `7` (alias of `{version}`) |
-| `{date}`      | `20260709`   |
-| `{ext}`       | `step`       |
+| Field         | Example                                        |
+|---------------|------------------------------------------------|
+| `{name}`      | `bracket`                                      |
+| `{version}`   | `7`                                            |
+| `{revletter}` | `G`                                            |
+| `{rev}`       | `7` (alias of `{version}`)                     |
+| `{date}`      | `20260709`                                     |
+| `{ext}`       | `step`                                         |
 | `{note}`      | whatever you type in the "Vendor / Note" field |
 
 The template and last-used output folder are remembered in `settings.json`
@@ -79,3 +79,7 @@ The filename-templating and CSV-logging logic (`lib/naming.py`,
 pip install pytest
 python3 -m pytest tests/ -q
 ```
+
+## License
+
+MIT — see [LICENSE](../LICENSE).
