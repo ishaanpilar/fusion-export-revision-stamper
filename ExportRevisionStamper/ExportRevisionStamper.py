@@ -121,11 +121,11 @@ def _run_export(fields: dict, full_path: str):
     elif fmt == "STL":
         options = export_manager.createSTLExportOptions(fields["root"], full_path)
     elif fmt == "3MF":
-        create_3mf = getattr(export_manager, "create3MFExportOptions", None)
+        create_3mf = getattr(export_manager, "createC3MFExportOptions", None)
         if create_3mf is None:
             raise RuntimeError(
                 "This version of Fusion's API does not expose 3MF export "
-                "(ExportManager.create3MFExportOptions). Use STEP or STL instead."
+                "(ExportManager.createC3MFExportOptions). Use STEP or STL instead."
             )
         options = create_3mf(fields["root"], full_path)
     else:

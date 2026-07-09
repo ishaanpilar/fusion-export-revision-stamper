@@ -64,7 +64,7 @@ next to the add-in (created on first run).
   only exists once a document has been saved to a Fusion (cloud) project. A
   document that's never been saved to the cloud stamps as version 1.
 - 3MF export requires a Fusion API version that exposes
-  `ExportManager.create3MFExportOptions`. If your Fusion build doesn't have
+  `ExportManager.createC3MFExportOptions`. If your Fusion build doesn't have
   it, the add-in will tell you to use STEP or STL instead.
 - This is a narrow first version: one command, one log file per output
   folder, no BOM/assembly batch export. It's meant to be the guard against
