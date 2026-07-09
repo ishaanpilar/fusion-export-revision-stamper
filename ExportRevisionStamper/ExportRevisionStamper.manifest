@@ -1,0 +1,14 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "addin",
+    "author": "",
+    "description": {
+        "": "Stamps the current design revision onto exported STEP/STL/3MF filenames and records every export to a local handoff log."
+    },
+    "supportedOS": "windows|mac",
+    "editEnabled": true,
+    "iconFilename": "",
+    "version": "0.1.0",
+    "runOnStartup": false,
+    "supportsMultipleDocuments": true
+}
